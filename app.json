@@ -9,7 +9,7 @@
         "ALIVE_MASSAGE": {
             "description": "වෙනස් කරන්න ඕන නෑ...",
             "required": false,
-            "value":"👋ʜɪ ᴅᴇᴀʀ ${pushname},\n🍃 ɪ ᴀᴍ ᴏɴʟɪɴᴇ ɴᴏᴡ 🍃\n\n✦ ᴛᴏ ɢᴇᴛ ꜰᴜʟʟ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ ᴛʏᴘᴇ .ᴍᴇɴᴜ ✦'"
+            "value":"default"
         },
             "HEROKU_APP_NAME": {
             "description": "",
@@ -25,6 +25,19 @@
             "description": "බොට්ගෙ නම...",
             "required": true,
             "value":"[🇱🇰𝚱𝚰𝚴Ｇ 𝛃𝚯𝚪🤘] ᎷᎠ"
+        },
+            "HEROKU": {
+            "description": "Heroku මෙය වෙනස් නොකරන්න. ",
+            "required": true,
+            "value": "true"
+        },
+        "HEROKU_API_KEY": {
+            "description": "https://dashboard.heroku.com/account Click this link. Scroll down for the API key. Then click the Reveal button. Copy the API key and paste the API Key empty box below. ඔබගෙ heroku ගිනුමෙ api කෙතය යොදන්න. ",
+            "required": true
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Use the same App name as first. ඔබ මෙහි ඉහතින් දැමු app name එක මෙහි යොදන්න. ",
+            "required": true
         },
             "SONG_DOWNLOAD": {
             "description": "",
