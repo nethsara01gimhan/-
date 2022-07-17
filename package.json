@@ -2,9 +2,9 @@
     "name": "King-Bot-MD",
     "version": "2.0",
     "description": "King Team project - a Whatsapp userbot helping to improve your Whatsapp experience.",
-    "main": "main.js",
+    "main": "bot.js",
     "scripts": {
-        "start": "supervisor -s main.js"
+        "start": "supervisor -s bot.js"
     },
     "repository": {
         "type": "git",
