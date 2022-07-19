@@ -1,7 +1,8 @@
 var config = require('./config');
 var Commands = [];
 
-function addrex(info, func) {
+function newcmdaddtoking(info, func) {
+   
     var types = ['photo', 'image', 'text', 'message'];
 
     var infos = {
@@ -35,6 +36,6 @@ function addrex(info, func) {
 }
 
 module.exports = {
-    addrex: addrex,
+    newcmdaddtoking: newcmdaddtoking,
     commands: Commands
 }
